@@ -1,0 +1,29 @@
+body {
+    font-family:Arial,Calibri,Tahoma;
+    font-weight:bold;
+    background-color:#d6b574;
+}
+/* Background colors testing purposes v */
+#rock {
+    background-color:red;
+}
+#paper {
+    background-color:blue;
+}
+#scissors {
+    background-color:yellow;
+}
+#lizard {
+    background-color:green;
+}
+#spock {
+    background-color:gray;
+}
+#rock, #paper, #scissors, #lizard, #spock {
+    width:256px;
+    height:256px;
+    float:left;
+}
+#selection {
+    clear:left;
+}
